@@ -1,0 +1,37 @@
+
+
+body {
+  padding-left: 400px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+
+.header_container {
+	float: right;
+  	margin: 0 auto;
+  	width: 50%;
+ }
+
+}
+.aboutme_container {
+  width: 800px;
+  margin: 0 left;
+}
+
+#bio-image, .aboutme_container, .connecwithme_container {
+  float: left; 
+  margin-right: 20px;
+}
+
+#aboutme{
+	width: 70%;
+}
+
+.connectwithme_container{
+	width: 30%;
+}
