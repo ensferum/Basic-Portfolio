@@ -70,7 +70,7 @@ h1 {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    width: 270px;
+    width: 20%;
     float: right;
 }
 
@@ -83,7 +83,7 @@ h1 {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    width: 650px;
+    width: 50%;
     float: left;
 }
 
@@ -95,7 +95,7 @@ h1 {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    width: 650px;
+    width: 50%;
     float: left;
 }
 
@@ -108,7 +108,7 @@ h1 {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    width: 650px;
+    width: 50%;
 }
 
 
