@@ -26,20 +26,21 @@ body {
 .bio-image,
 .aboutme_container, 
 .contact_container,
-.portfolio_container,
-.connecwithme_container {
+.portfolio_container {
+ 
   float: left; 
   margin-right: 20px;
+}
+
+
+.connectwithme_container{
+	width: 270px;
+	align-content: : center;
 }
 
 .aboutme{
 	width: 650px;
 }
-
-.connectwithme_container{
-	width: 270px;
-}
-
 .contact_container {
   width: 650px;
   margin: 0 auto;
