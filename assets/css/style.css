@@ -46,6 +46,11 @@ h1 {
 	margin-bottom:50px;
 }
 
+.namemerge{
+	overflow:auto;
+
+}
+
 .header_container {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 15px;
@@ -53,6 +58,7 @@ h1 {
     width: auto;
 	float:right;
 }
+
 
 
 
