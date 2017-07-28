@@ -2,52 +2,64 @@
 
 body {
 
-  padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background-image: url("background.png");
-  width: 960px;
+  	 padding-top: 50px;
+ 	 padding-right: 30px;
+ 	 padding-bottom: 50px;
+ 	 padding-left: 80px;
+ 	 margin: 0;
+  	font-family: Georgia, "Times New Roman", Times, serif;
+  	font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background-image: url("background.png");
+    width: 960px;
+   
 }
 
 h1 {
-
+	text-align: left;
 	font-family: Georgia, "Times New Roman", Times, serif;
   	font-size: 30px;
   	color: #0049FF;
-  	float: left;
+
+
+  	
+}
+
+
+.gallery1{
+	border: 10px solid black;
+
+}
+
+.gallery2{
+	border: 10px solid black;
+
+}
+
+.gallery3{
+	border: 10px solid black;
+}
+
+.gallery4{
+	border: 10px solid black;
+
+}
+
+.gallery5{
+	border: 10px solid black;
 }
 
 .header_container {
 	font-family: Georgia, "Times New Roman", Times, serif;
   	font-size: 15px;
   	color: #0049FF;
-	float: right;
-  	margin: 0 auto;
-  	width: 50%;
-}
-
-.portfolio_container{
-
-	border: 1px solid black;
-    background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    float: right;
-}
-
-
-
+  	width: 960px;
+  	margin: 0 0 0 475px;
+ } 	
 
 .aboutme_container {
- 	
+ 	margin-top:100px;
     border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
@@ -55,11 +67,10 @@ h1 {
     padding-bottom: 50px;
     padding-left: 80px;
     width: 650px;
-    float: right;
-}
+ }
 
 .contact_container {
-	
+	margin-top:100px;
  	border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
@@ -69,22 +80,36 @@ h1 {
     width: 650px;
     align-content: right;
 
-
 }
 
-.bio-image,
-.aboutme_container, 
-.contact_container,
-.portfolio_container {
- 
-  float: left; 
-  margin-right: 20px;
+.portfolio_container{
+	margin-top:100px;
+	display: inline-block;
+	border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    width: 650px;
+ }
+
+
+.bio-image{
+	float:left;
+	margin: 10px 10px 10px 10px;
 }
 
 
 .connectwithme_container{
+	margin: 0 0 0 380px;
+	border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 	width: 270px;
-	align-content: : center;
 }
 
 
