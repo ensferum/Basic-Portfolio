@@ -19,19 +19,29 @@ body {
 
 }
 .aboutme_container {
-  width: 800px;
-  margin: 0 left;
+  width: 650px;
+  margin: 0 auto;
 }
 
-#bio-image, .aboutme_container, .connecwithme_container {
+.bio-image,
+.aboutme_container, 
+.contact_container,
+.portfolio_container,
+.connecwithme_container {
   float: left; 
   margin-right: 20px;
 }
 
-#aboutme{
-	width: 70%;
+.aboutme{
+	width: 650px;
 }
 
 .connectwithme_container{
-	width: 30%;
+	width: 270px;
+}
+
+.contact_container {
+  width: 650px;
+  margin: 0 auto;
+
 }
