@@ -94,7 +94,7 @@ h1 {
     padding-bottom: 50px;
     padding-left: 80px;
     width: 650px;
-    align-content: right;
+    float:left;
 
 }
 
