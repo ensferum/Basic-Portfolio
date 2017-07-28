@@ -1,80 +1,76 @@
-
-
 body {
 
-  	 padding-top: 50px;
- 	 padding-right: 30px;
- 	 padding-bottom: 50px;
- 	 padding-left: 80px;
- 	 margin: 0;
-  	font-family: Georgia, "Times New Roman", Times, serif;
-  	font-size: 18px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    margin: auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
     line-height: 150%;
     color: #333;
     background-image: url("background.png");
     width: auto;
-   
 }
 
 h1 {
-	text-align: left;
-	font-family: Georgia, "Times New Roman", Times, serif;
-  	font-size: 30px;
-  	color: #0049FF;
-
-
-  	
+    text-align: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #0049FF;
 }
 
 
-.gallery1{
-	border: 10px solid black;
-
+.gallery1 {
+    border: 10px solid black;
 }
 
-.gallery2{
-	border: 10px solid black;
-
+.gallery2 {
+    border: 10px solid black;
 }
 
-.gallery3{
-	border: 10px solid black;
+.gallery3 {
+    border: 10px solid black;
 }
 
-.gallery4{
-	border: 10px solid black;
-
+.gallery4 {
+    border: 10px solid black;
 }
 
-.gallery5{
-	border: 10px solid black;
+.gallery5 {
+    border: 10px solid black;
+}
+.myname {
+
+	float:left;
+	margin-bottom:50px;
 }
 
 .header_container {
-	font-family: Georgia, "Times New Roman", Times, serif;
-  	font-size: 15px;
-  	color: #0049FF;
-  	width: auto;
-  	margin: 0 0 0 475px;
- } 	
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: #0049FF;
+    width: auto;
+	float:right;
+}
 
 
 
- .connectwithme_container{
-	margin: 0 0 0 380px;
-	border: 1px solid black;
+.connectwithme_container {
+   
+    border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-	width: 270px;
-	float:right;
+    width: 270px;
+    float: right;
 }
 
 
 .aboutme_container {
- 	margin-top:100px;
+    
     border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
@@ -82,40 +78,35 @@ h1 {
     padding-bottom: 50px;
     padding-left: 80px;
     width: 650px;
-    float:left;
- }
+    float: left;
+}
 
 .contact_container {
-	margin-top:100px;
- 	border: 1px solid black;
+  
+    border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
     width: 650px;
-    float:left;
-
+    float: left;
 }
 
-.portfolio_container{
-	margin-top:100px;
-	display: inline-block;
-	border: 1px solid black;
+.portfolio_container {
+   
+    display: inline-block;
+    border: 1px solid black;
     background-color: lightblue;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
     width: 650px;
- }
-
-
-.bio-image{
-	float:left;
-	margin: 10px 10px 10px 10px;
 }
 
 
-
-
+.bio-image {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
