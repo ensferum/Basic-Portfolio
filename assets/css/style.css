@@ -16,72 +16,75 @@ body {
 }
 
 h1 {
-    
+
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 30px;
     color: #0049FF;
 }
 
+
 /* My name header */
+
 .myname {
 
-	float:left;
-	margin-bottom:50px;
+    float: left;
+    margin-bottom: 50px;
 }
 
-.namemerge{
-	overflow:auto;
-
+.namemerge {
+    overflow: auto;
 }
+
 
 /* Links to other pages on my website */
-
 
 .header_container {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 15px;
     color: #0049FF;
     width: auto;
-	float:right;
+    float: right;
 }
+
 
 
 /* Icon links to my online profiles */
 
-
 .connectwithme_container {
-   
+
     border: 1px solid black;
     background-color: lightblue;
     padding: 10px;
-    width: 270px;
+    width: 260px;
     float: right;
 }
 
+
 /* Main page profile pic */
+
 .bio-image {
     float: left;
     margin: 5px;
 }
 
 
+
 /* Main page */
 
-
 .aboutme_container {
-    
+
     border: 1px solid black;
     background-color: lightblue;
     padding: 5px;
     width: 650px;
     float: left;
 }
+
 
 /* Contact me page */
 
-
 .contact_container {
-  
+
     border: 1px solid black;
     background-color: lightblue;
     padding: 5px;
@@ -89,61 +92,65 @@ h1 {
     float: left;
 }
 
+
 /* Portfolio page */
 
-
 .portfolio_container {
-   
+
     display: inline-block;
     border: 1px solid black;
     background-color: lightblue;
-    padding:5px;
+    padding: 5px;
     width: 650px;
+    float: left;
 }
+
 
 /* Gallery pics in the portfolio page */
 
-
 .gallery1 {
-    padding: 5px;
+
+    position: relative;
+    width: 100%;
 }
 
 .gallery2 {
-    padding: 5px;
+
+    position: relative;
+    width: 100%;
 }
+
+
 
 .gallery3 {
-    padding: 5px;
+
+    position: relative;
+    width: 100%;
 }
 
+
+
 .gallery4 {
-    padding: 5px;
+
+    position: relative;
+    width: 100%;
 }
 
 .gallery5 {
-    padding: 5px;
+
+    position: relative;
+    width: 100%;
 }
 
+h4 {
 
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
 
-.image1 {
-  position : relative;
-  z-index  : 1;
-  width    : 300px;
-  height   : 150px;
-  background : white;
-  margin-bottom: 5px;
+    width: 300px;
+    height: 30px;
+    background: white;
+    margin-bottom: 20px;
 }
-
-
-h4 { 
-    position : relative;
-  z-index  : 1;
-  top      : 0;
-  right    : 0;
-  width    : 300px;
-  height   : 50px;
-  background : white;
-  margin-bottom: 5px;
-}
-
