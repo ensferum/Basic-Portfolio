@@ -29,14 +29,13 @@ h1 {
 /* My name header */
 
 .myname {
-
     float: left;
-    margin-bottom: 50px;
+   
 }
 
 .namemerge {
     overflow: auto;
-    margin-bottom: 0;
+    margin-bottom: -25px;
 }
 
 
@@ -48,6 +47,10 @@ h1 {
     color: #0049FF;
     width: auto;
     float: right;
+    text-align: bottom;
+    height: 30px;
+
+
 }
 
 
