@@ -1,3 +1,5 @@
+/* Styling for my basic portfolio page */
+
 body {
 
     padding-top: 50px;
@@ -9,8 +11,8 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background-image: url("background.png");
-    width: auto;
+    background-image: url("../images/background.png");
+    width: 960px;
 }
 
 h1 {
@@ -20,26 +22,7 @@ h1 {
     color: #0049FF;
 }
 
-
-.gallery1 {
-    border: 10px solid black;
-}
-
-.gallery2 {
-    border: 10px solid black;
-}
-
-.gallery3 {
-    border: 10px solid black;
-}
-
-.gallery4 {
-    border: 10px solid black;
-}
-
-.gallery5 {
-    border: 10px solid black;
-}
+/* My name header */
 .myname {
 
 	float:left;
@@ -51,6 +34,9 @@ h1 {
 
 }
 
+/* Links to other pages on my website */
+
+
 .header_container {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 15px;
@@ -60,59 +46,104 @@ h1 {
 }
 
 
+/* Icon links to my online profiles */
 
 
 .connectwithme_container {
    
     border: 1px solid black;
     background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    width: 20%;
+    padding: 10px;
+    width: 270px;
     float: right;
 }
+
+/* Main page profile pic */
+.bio-image {
+    float: left;
+    margin: 5px;
+}
+
+
+/* Main page */
 
 
 .aboutme_container {
     
     border: 1px solid black;
     background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    width: 50%;
+    padding: 5px;
+    width: 650px;
     float: left;
 }
+
+/* Contact me page */
+
 
 .contact_container {
   
     border: 1px solid black;
     background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    width: 50%;
+    padding: 5px;
+    width: 650px;
     float: left;
 }
+
+/* Portfolio page */
+
 
 .portfolio_container {
    
     display: inline-block;
     border: 1px solid black;
     background-color: lightblue;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    width: 50%;
+    padding:5px;
+    width: 650px;
+}
+
+/* Gallery pics in the portfolio page */
+
+
+.gallery1 {
+    padding: 5px;
+}
+
+.gallery2 {
+    padding: 5px;
+}
+
+.gallery3 {
+    padding: 5px;
+}
+
+.gallery4 {
+    padding: 5px;
+}
+
+.gallery5 {
+    padding: 5px;
 }
 
 
-.bio-image {
-    float: left;
-    margin: 10px 10px 10px 10px;
+
+.image1 {
+  position : relative;
+  z-index  : 1;
+  width    : 300px;
+  height   : 150px;
+  background : white;
+  margin-bottom: 5px;
 }
+
+
+h4 { 
+    position : relative;
+  z-index  : 1;
+  top      : 0;
+  right    : 0;
+  width    : 300px;
+  height   : 50px;
+  background : white;
+  margin-bottom: 5px;
+}
+
