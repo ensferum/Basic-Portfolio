@@ -45,7 +45,6 @@ h4 {
     font-family: Georgia, "Times New Roman", Times, serif;
     text-align: center;
     position: absolute;
-    z-index: 1;
     bottom: 0px;
     font-weight: lighter;
     width: 300px;
@@ -57,7 +56,7 @@ h4 {
 
 hr
 {
-    border: solid 1px #cccccc;;
+    border: solid 1px #cccccc;
 
 }
 
@@ -81,7 +80,7 @@ hr
     float: right;
     
 }
-
+/* Merging my name and website links */
 
 .namemerge {
     overflow: auto;
@@ -117,7 +116,7 @@ hr
 
 
 
-/* Main page */
+/* Main About me page */
 
 .aboutme_container {
 
@@ -128,11 +127,11 @@ hr
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
-   
+    border: solid 1px #dddddd
 }
 
 
-/* Contact me page */
+/*  Main Contact me page */
 
 .contact_container {
 
@@ -144,11 +143,11 @@ hr
     margin-top: 20px;
     margin-bottom: 20px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  
+    border: solid 1px #dddddd
 }
 
 
-/* Portfolio page */
+/* Main Portfolio page */
 
 
 .portfolio_container {
@@ -160,9 +159,10 @@ hr
     width: 640px;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+    border: solid 1px #dddddd
 }
 
+/* Floating the gallery pictures into rows */
 .row1{
     float:left;
     padding: 10px;
@@ -180,7 +180,7 @@ hr
 
 }
 
-/* Gallery pics in the portfolio page */
+/* Gallery text over pics in the portfolio page */
 
 .gallery1 {
 
@@ -224,6 +224,7 @@ hr
     clear: both;
 }
 
+/* Footer */
 .footer {
     
 
