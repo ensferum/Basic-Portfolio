@@ -163,15 +163,27 @@ hr
     background-color: #ffffff;
     padding: 5px;
     width: 640px;
-    float: left;
     margin-top: 20px;
     margin-bottom: 20px;
-
-
-
     
 }
 
+.row1{
+    float:left;
+    padding: 10px;
+}
+
+.row2{
+    float:left;
+    padding: 10px;
+
+}
+
+.row3{
+    float:left;
+    padding: 10px;
+
+}
 
 /* Gallery pics in the portfolio page */
 
