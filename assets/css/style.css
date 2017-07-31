@@ -36,8 +36,7 @@ h1 {
     background: #4aaaa5;
     text-align: center;
     border: solid 1px #cccccc;
-    margin-left: 198.2%;
-
+    position: relative;
 
 }
 
@@ -84,8 +83,9 @@ hr
     font-size: 15px;
     color: #777777;
     margin-top: 50px;
-    margin-right: 27.5%;
     float: right;
+    position: relative;
+
 
     
 }
@@ -111,7 +111,7 @@ hr
     float: right;
     text-align: center;
     margin-top: 20px;
-    margin-right: 25%;
+    position: relative;
     
 }
 
