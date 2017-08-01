@@ -61,10 +61,10 @@ h4 {
     bottom: 0px;
     font-weight: lighter;
     width: 275px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background: #4aaaa5;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 hr {
@@ -114,15 +114,12 @@ hr {
     margin: auto;
 }
 
-.sidebar {
-    width: 960px;
-    margin: auto;
-}
-
+.sidebar,
 .contactmerge {
     width: 960px;
     margin: auto;
 }
+
 
 
 
@@ -150,7 +147,7 @@ hr {
 
 .bio-image {
     float: left;
-    margin: 5px;
+    margin: 10px;
 }
 
 
@@ -179,60 +176,34 @@ hr {
 
 /* Floating the gallery pictures into rows */
 
-.row1 {
-    float: left;
-    padding: 10px;
-}
-
-.row2 {
-    float: left;
-    padding: 10px;
-}
-
+.row1,
+.row2,
 .row3 {
+    
     float: left;
     padding: 10px;
 }
 
+
+.row3{
+    margin-top: -15px;
+}
 
 
 
 /* Gallery text over pics in the portfolio page */
 
-.gallery1 {
-
-    position: relative;
-    width: 100%;
-}
-
-.gallery2 {
-
-    position: relative;
-    width: 100%;
-}
-
-
-
-.gallery3 {
-
-    position: relative;
-    width: 100%;
-}
-
-
-
-.gallery4 {
-
-    position: relative;
-    width: 100%;
-}
-
+.gallery1,
+.gallery2,
+.gallery3,
+.gallery4,
 .gallery5 {
 
     position: relative;
     width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
 
 
 /* Setting contact form size */
