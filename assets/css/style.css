@@ -179,7 +179,7 @@ hr {
 .row1,
 .row2,
 .row3 {
-    
+    margin-right: 10px;
     float: left;
     padding: 10px;
 }
