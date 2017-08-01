@@ -225,6 +225,25 @@ hr {
     clear: both;
 }
 
+/* Setting contact form size */
+
+textarea {
+    width: 587px;
+    height: 300px;
+}
+
+/* Submit button styling */
+button{
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 125px; 
+    height: 50px;
+    border: none;
+    background-color: #4aaaa5;
+}
+
 
 /* Footer */
 
