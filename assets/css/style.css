@@ -167,6 +167,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: solid 1px #dddddd
+
 }
 
 
@@ -251,7 +252,10 @@ button {
     color: white;
     clear: both;
     text-align: center;
-    width: auto;
+    width: 100%;
+    position:absolute;  /* Sticky footer */
+    bottom:0;         
+    left:0;            
 }
 
 
