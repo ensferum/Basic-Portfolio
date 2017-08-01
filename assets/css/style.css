@@ -227,9 +227,19 @@ hr {
 
 /* Setting contact form size */
 
+#name,
+#mail{
+
+    width: 590px;
+    padding: 5px;
+
+
+}
+
 textarea {
-    width: 587px;
+    width: 590px;
     height: 300px;
+    padding: 5px;
 }
 
 /* Submit button styling */
