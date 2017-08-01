@@ -228,18 +228,17 @@ hr {
 /* Setting contact form size */
 
 #name,
-#mail{
-
-    width: 590px;
-    padding: 5px;
-
+#mail
+{
+    
+    height: 30px;
+    
 
 }
 
 textarea {
     width: 590px;
     height: 300px;
-    padding: 5px;
 }
 
 /* Submit button styling */
