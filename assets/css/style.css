@@ -1,8 +1,7 @@
 /* Styling for my basic portfolio page */
 
 body {
-
-
+    position: relative;
     font-size: 18px;
     color: #333;
     background-image: url("../images/background.png");
@@ -253,7 +252,7 @@ button {
     clear: both;
     text-align: center;
     width: 100%;
-    position:absolute;  /* Sticky footer */
+    position:fixed;  /* Sticky footer */
     bottom:0;         
     left:0;            
 }
